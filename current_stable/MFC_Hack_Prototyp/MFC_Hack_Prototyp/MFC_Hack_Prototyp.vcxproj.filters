@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Hack">
+      <UniqueIdentifier>{4e9d527c-1ce8-4dfe-b60b-aa2309ba9a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{3f80bf54-5ccf-4789-8e55-a23c2d374d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sonstiges">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Sonstiges</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Sonstiges</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Sonstiges</Filter>
+    </ClInclude>
+    <ClInclude Include="K_Convert.h">
+      <Filter>Sonstiges</Filter>
+    </ClInclude>
+    <ClInclude Include="KDrawController.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="KGameProcess.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="KGameView.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="KHack.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="KPlayer.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="KPlayer2dCoord.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="KVector3D.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="StartDlg.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="HackDlg.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MFC_Hack_Prototyp.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="KColor.h">
+      <Filter>Sonstiges</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KDrawController.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="KGameProcess.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="KGameView.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="KHack.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="KPlayer.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="KPlayer2dCoord.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="KVector3D.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="StartDlg.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="HackDlg.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MFC_Hack_Prototyp.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="K_Convert.cpp">
+      <Filter>Sonstiges</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Sonstiges</Filter>
+    </ClCompile>
+    <ClCompile Include="KColor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFC_Hack_Prototyp.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFC_Hack_Prototyp.rc2">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFC_Hack_Prototyp.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
